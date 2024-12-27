@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "532442428762",
+    "project_id": "feednet-3b1bc",
+    "storage_bucket": "feednet-3b1bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532442428762:android:eed292732358aabf6a2f63",
+        "android_client_info": {
+          "package_name": "com.example.feednet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIsWvf9Xy9-aNA9igWhdhYEvNQzVQFPeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
