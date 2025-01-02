@@ -30,11 +30,14 @@ class _RegisterScreenState extends State<RegisterScreen> {
               .collection('users')
               .doc(_usernameController.text)
               .set({
-            'name': _nameController.text,
-            'lastName': _lastNameController.text,
+            'first_name': _nameController.text,
+            'last_name': _lastNameController.text,
             'username': _usernameController.text,
             'password': _passwordController.text,
-            'photo': _photoController.text,
+            'picture': _photoController.text,
+            'followers': 0,
+            'followed': 0,
+            'status': 1
           });
           
           ScaffoldMessenger.of(context)

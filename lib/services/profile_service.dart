@@ -14,7 +14,8 @@ class ProfileService with ChangeNotifier {
   }
 
   Future<bool> updateStatus(BuildContext context) async {
-    user = await Provider.of<UserService>(context, listen: false).getUserData();
+    user = await Provider.of<UserService>(context).getUserData();
+    print('USER => ${user.username}');
     try {
       await FirebaseFirestore.instance
           .collection('users')
